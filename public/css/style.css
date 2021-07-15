@@ -1,0 +1,106 @@
+.maincontainer{width: 100%; padding: 20px 0; border:1px solid #CCCCCC; float:left; background: #4279A3; color: #FFF;}
+.innercontainer{width: 80%; float:right; text-align: right; }
+.linkdiv{width:15%; float: left; text-align: right; border: 1px solid #CCC; text-align: center; border-radius: 5px;padding:8px 0;  background-color:#698c8c; margin: 5px 10px;}
+.linkdiv a {text-decoration: none; color: #FFF;text-align: right;}
+.linklogo {width: 19%; float:left; font-size: 30px; text-align: center;}
+.linklogo a {text-decoration: none; color: #282923;text-align: left;}
+.linkdiv_logout{width:8%; float: left; text-align: right; border: 1px solid #CCC; text-align: center; border-radius: 5px;padding:8px 0;  background-color:#698c8c; margin: 0 10px;}
+
+.linkdiv_logout a {text-decoration: none; color: #FFF;text-align: right;}
+
+table {
+
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 4px;
+  font-size: 12.8px;
+  font-weight: normal;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 1px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
